@@ -13,7 +13,7 @@ int auto_commit() {
     cmds.push_back("echo `date \"+%Y-%m-%d %H:%M:%S\"` >>  exe_history");
     cmds.push_back("git add .");
     cmds.push_back("git commit -m \"impl ApnsPooledConnection.java\"");
-    cmds.push_back("git push origin feature/auto-commit");
+    cmds.push_back("git push origin dev_crazyacking");
 
     vector<string>::iterator iter=cmds.begin();
     for(; iter!=cmds.end(); iter++) {
