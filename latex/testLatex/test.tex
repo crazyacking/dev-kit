@@ -1,0 +1,42 @@
+﻿\documentclass{article}
+\usepackage{ctex} 
+\usepackage{verbatim}
+
+\title{My First \LaTeX{} Document}
+\author{B. Nachman and A. Dishaw}
+\date{\today} 
+
+\begin{document}
+\maketitle
+
+你好， Welcome to \LaTeX{}!  These instructions will help you write your very first \TeX{} document.  To begin, open your favorite \TeX{} editor (or simply a text document).  You will start by declaring the document class.  For example, type
+
+\begin{verbatim}
+\documentclass{article} 
+\end{verbatim}
+article is one of many different classes, but is common so we will stick with that for now.  After the document class, you can include any packages you may need.  For now, we will not use any additional packages, so lets begin the document with the line
+
+\begin{verbatim}
+\begin{document}
+\end{verbatim}
+Now, type your first line of \LaTeX{}!  For example,
+
+\begin{verbatim}
+Hello World!
+\end{verbatim}
+Then, end the document with 
+
+\begin{verbatim}
+\end{document}
+\end{verbatim}
+To summarize, your document should look like
+
+\begin{verbatim}
+\documentclass{article} 
+\begin{document}
+Hello World!
+\end{document}
+\end{verbatim}
+Then, compile this and see what you get!  Compiling may mean different things depending on what interface to \TeX{} you used.  Once you have this first document working, move on to the next tutorial called {\it Sample Math}.
+
+\end{document}
