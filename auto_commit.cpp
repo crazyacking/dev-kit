@@ -26,7 +26,6 @@ int auto_commit() {
 int main() {
     auto_commit();
     return 0;
-
 }
 
 
