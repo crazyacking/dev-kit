@@ -1,0 +1,3 @@
+/Users/shanbiao.jsb/code/bash-style/c/sshfav/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/shanbiao.jsb/code/bash-style/c/sshfav/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/shanbiao.jsb/code/bash-style/c/sshfav/cmake-build-debug/CMakeFiles/sshfav.dir

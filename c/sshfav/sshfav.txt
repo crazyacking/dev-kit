@@ -1,0 +1,10 @@
+(1) shanbiao.jsb    wingate.eu13.cloud.alibaba.org  [弹外跳板机]
+(2) shanbiao.jsb    login1.eu13.alibaba.org         [弹内跳板机]
+(3) shanbiao.jsb    100.69.207.33                   [beacon-daily]
+(4) shanbiao.jsb    10.218.139.228                  [mac-manager-daily]
+(5) shanbiao.jsb    10.218.130.196                  [emas-daily] [eweex-basic-manager]
+(6) shanbiao.jsb    10.218.141.173                  [emas-daily]
+(7) shanbiao.jsb    10.125.6.193                    [emas-daily] [eweex-release-publish-service] [eweex-publish-service]
+(8) shanbiao.jsb    10.101.15.8                     [emas-daily] [emas-data-service]
+(a) root            47.96.167.34                    [飞天] [发布机
+(b) root            47.96.131.244                   [飞天] [mysql]
