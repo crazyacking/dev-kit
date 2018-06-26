@@ -59,4 +59,5 @@ echo ""
 
 # ----------------------------------------
 # For example:
-# ./add-user.sh test17 1 "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCrEa35xaJDOKkGC8vGdscch6TfFJpB4G8drqjR5O2+NDNOXspYsAURS6G1HPIICDKuxM5ePmuCo7OGrLj9uuzT2IVUBfWXH672bIJ2xF8rR/gLXJFrF5mD00grZvzcHP58x/gWNvbjQtHrjzd2/RapsijxpLry02fu/nXJ5Am2fnJJVbE9FyHyu2PUuqxgYzL/AWLtnC2breuxtRIzW9juOds++dl7X67xmLz4LbjDhXNsfEMYwfnak5joccybfz7U9LagDecX2okpwB3Za/wiGC/mJAo3N/kwdqtroAbO39OgdfnSOUUiktPbKsjpaREcM3Xm/UwWUJ9KNvs0YRZD crazyacking@gmail.com"
+# ./add-user.sh $user $expire-days $public-key
+# ./add-user.sh shanbiao.jsb 7 "ABCDE"
