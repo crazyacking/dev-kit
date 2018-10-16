@@ -5,9 +5,7 @@ clear
 echo ____________________________________________________________________________________
 echo
 cat ~/bin/hosts.txt
-echo
 echo ____________________________________________________________________________________
-echo
 echo
 echo "choose one:"
 
@@ -18,14 +16,15 @@ if [[ "$opt" = "q"  ]]; then
 fi
 
 line=`cat ~/bin/hosts.txt | grep "($opt)"`
-user=`echo $line | awk '{print $2}'`
+user=`echo $line | awk '{print $1}'`
+port=`echo $line | awk '{print $2}'`
 host=`echo $line | awk '{print $3}'`
 desc=`echo $line | awk '{print $4}'`
 
 echo ________________________________________________________
 echo
 echo  user: $user
-echo  host: $host
+echo  host: $host:$port
 echo  desc: $desc
 echo ________________________________________________________
 echo
@@ -34,4 +33,4 @@ echo
 #scp ~/.ssh/id_rsa.pub "$user"@"$host":~/.ssh/id_rsa.pub.bak
 #ssh "$user"@"$host" 'cat ~/.ssh/id_rsa.pub.bak >> ~/.ssh/authorized_keys'
 
-ssh "$user"@"$host"
+ssh "$user"@"$host" -p $port
