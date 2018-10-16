@@ -1,19 +1,14 @@
-
 #!/bin/sh
 
 # author: shanbiao.jsb
 # date  : Tue 26 Jun 2018 06:37:34 PM CST
 
-# ----------------------------------------
+# This will take the username as a parameter referred to as $0
+
+# ------------------------
 # param1: user_name
 # param2: time to expire
 # param3: public key
-
-# ----------------------------------------
-# For example:
-# ./add-user.sh $user $expire-days $public-key
-# ./add-user.sh shanbiao.jsb 7 "ABCDE"
-
 
 user=$1
 ttl=$2
